@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/codegen.css">
+		<title>Code Generator</title>
+	</head>
+	<body class="body-class">
+		<div class="prev-code-class">
+			<div class="preview-class">
+				<p class="head-lines">PREVIEW</p>
+				<div class="play-area" id="html-code-area">
+					<p id="html-presence-label">HTML will be present here...</p>
+				</div>
+			</div>
+			<div class="code-class">
+				<p class="head-lines">CODE (HTML)</p>
+				<div class="play-area" id="text-area">
+					<p id="html-code">Your code goes here...</p>
+					<p id="code-area"></p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="create-class">
+			<p class="head-lines">CREATE</p>
+			<div class="play-area">
+				<p class="select-tag-label" id="select-tag">Modify the element details and Click INSERT</p>
+				<div class="tag-1">
+					<select id="tags-spinner" name="tags-spinner"></select>
+                	<input type="text" id="tag-text" name="tag-text-name" placeholder="Text" class="text-field">
+                	<input type="text" id="selecter-text" name="selecter-text-name" placeholder="Selector" class="text-field">
+                	<input type="text" id="class-text" name="selecter-text-name" placeholder="Class" class="text-field">
+                	<button type="submit"  id="submit-btn" class="submit-btn">INSERT</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script src="../js/codegen.js"></script>
+</html>
